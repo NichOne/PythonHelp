@@ -6,7 +6,7 @@ KeyBinds
 P = Pause
 Enter or Space = Enter new number tap twice
 R = Resume
-Q = End Script
+Q + Enter = End Script
 """
 import pyautogui
 import keyboard
