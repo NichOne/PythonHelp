@@ -6,7 +6,7 @@ KeyBinds
 P = Pause
 Enter or Space = Enter new number tap twice
 R = Resume
-ESC = End Script
+Q = End Script
 """
 import pyautogui
 import keyboard
@@ -71,7 +71,7 @@ def run_script():
             pyautogui.write(str(start_number))
 
         # Check if the "Esc" key is pressed to stop the script
-        if is_key_pressed('esc'):
+        if is_key_pressed('q'):
             print("Script stopped.")
             running = False
 
