@@ -70,7 +70,7 @@ def run_script():
             # Update the clipboard value with the new number
             pyautogui.write(str(start_number))
 
-        # Check if the "Esc" key is pressed to stop the script
+        # Check if the "q" key is pressed to stop the script
         if is_key_pressed('q'):
             print("Script stopped.")
             running = False
